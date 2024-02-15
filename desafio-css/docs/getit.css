@@ -28,11 +28,12 @@ body {
 }
 
 .appbar{ 
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   display: flex;
   justify-content: flex-start;
   height:20px;
-  background-color: #e4fc2b;
+  background-color: #e0d426;
+  margin-bottom: 16px;
 }
 
 .logo{ 
@@ -47,7 +48,7 @@ body {
 }
 
 .form-card {
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,7 +56,7 @@ body {
 
 .form-card-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 18;
+  font-size: 18px;
   color: #4c4c4c;
   width: 90%;
   height: 20px;
@@ -63,19 +64,19 @@ body {
 
 .autoresize {
   font-family: 'Roboto', sans-serif;
-  font-size: 12;
+  font-size: 12px;
   color: #4c4c4c;
   width: 90%;
   height: 20px;
 }
 
 .btn{
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-family: 'Roboto', sans-serif;
   color: #2c2c2c;
   width: 90%;
   height: 20px;
-  background-color: #e4fc2b;
+  background-color: #e0d426;
   border-radius: 3px;
 }
 
@@ -86,20 +87,23 @@ body {
 }
 
 .card{
-  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  height: 80px;
-  width: 120px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  height: 100px;
+  width: 180px;
   background-color: #ead3a7;
+  margin: 16px;
 }
 
 .card-title{
   font-family: 'Permanent Marker', cursive;
+  font-size: 16px;
   font-weight: bold;
   color: #2c2c2c;
 }
 
 .card-content{
   font-family: 'Permanent Marker', cursive;
+  font-size: 12px;
   color: #4c4c4c;
 }
 
