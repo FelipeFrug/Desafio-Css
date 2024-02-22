@@ -31,14 +31,15 @@ body {
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   display: flex;
   justify-content: flex-start;
-  height:20px;
-  background-color: #e0d426;
+  align-items: center;
+  height:60px;
+  background-color: #f7d736;
   margin-bottom: 16px;
 }
 
 .logo{ 
-  height:20px;
-  width:20px;
+  height:50px;
+  margin: 5px;
 }
 
 .container {
@@ -52,32 +53,44 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 3px;
+  width: 30%;
 }
 
 .form-card-title {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   color: #4c4c4c;
-  width: 90%;
+  width: 97%;
   height: 20px;
+  border: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .autoresize {
   font-family: 'Roboto', sans-serif;
   font-size: 12px;
   color: #4c4c4c;
-  width: 90%;
+  resize: none;
+  width: 97%;
   height: 20px;
+  border-color: white;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .btn{
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
   font-family: 'Roboto', sans-serif;
   color: #2c2c2c;
-  width: 90%;
-  height: 20px;
-  background-color: #e0d426;
+  width: 97%;
+  height: 30px;
+  background-color: #f7d736;
   border-radius: 3px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-color: #f7d736;
 }
 
 .card-container {
@@ -87,14 +100,20 @@ body {
 }
 
 .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-  height: 100px;
+  height: 110px;
   width: 180px;
   background-color: #ead3a7;
-  margin: 16px;
+  margin: 30px;
 }
 
 .card-title{
+  align-self: flex-start;
+  margin: 5px;
+  margin-bottom: 15px;
   font-family: 'Permanent Marker', cursive;
   font-size: 16px;
   font-weight: bold;
@@ -102,9 +121,74 @@ body {
 }
 
 .card-content{
+  margin: 5px;
   font-family: 'Permanent Marker', cursive;
   font-size: 12px;
   color: #4c4c4c;
+}
+
+.card-color-1{
+  background-color: #ead3a7;
+}
+
+.card-color-2{
+  background-color: #9de0f5;
+}
+
+.card-color-3{
+  background-color: #ef89ba;
+}
+
+.card-color-4{
+  background-color: #fae890;
+}
+
+.card-color-5{
+  background-color: #abe9c1;
+}
+
+.card-rotation-1{
+  transform: rotate(1deg);
+}
+
+.card-rotation-2{
+  transform: rotate(-1deg);
+}
+
+.card-rotation-3{
+  transform: rotate(2deg);
+}
+
+.card-rotation-4{
+  transform: rotate(-2deg);
+}
+
+.card-rotation-5{
+  transform: rotate(3deg);
+}
+
+.card-rotation-6{
+  transform: rotate(-3deg);
+}
+
+.card-rotation-7{
+  transform: rotate(4deg);
+}
+
+.card-rotation-8{
+  transform: rotate(-4deg);
+}
+
+.card-rotation-9{
+  transform: rotate(5deg);
+}
+
+.card-rotation-10{
+  transform: rotate(-5deg);
+}
+
+.card-rotation-11{
+  transform: rotate(6deg);
 }
 
 /* Você pode usar o CSS comentado abaixo, se ajudar */
